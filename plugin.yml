@@ -1,11 +1,17 @@
-name: esySetSkin
+name: easySetSkin
 version: 1.0.0
 main: easySetSkin\main
-api: 3.0.0
+api: 4.0.0
 description: for easy set skin
-author: Mahdi 
+author: Mahdi
 
 
 commands:
-   easysetskin:
-     description: for see about developer
+  easysetskin:
+    description: for see about developer
+    permission: easysetskin.command
+
+permissions:
+  easysetskin.command:
+    description: Allow using easysetskin command
+    default: true

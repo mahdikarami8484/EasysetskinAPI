@@ -2,29 +2,29 @@
 
 namespace easySetSkin;
 
+use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\plugin\PluginBase;
-use pocketmine\Server;
-use pocketmine\Player;
+use pocketmine\player\Player;
 use pocketmine\command\{Command , CommandSender};
 use pocketmine\utils\TextFormat as c;
 use pocketmine\entity\Skin;
+use pocketmine\event\Listener;
 
 class main extends PluginBase implements Listener{
    
-    public function onEnable()
+    public function onEnable():void 
     {
         $this->getServer()->getPluginManager()->registerEvents($this,$this);
+		//$this->getlogger()->info(C::BLUE."Mahdi's plug is loading ".C::RED."|".C::YELLOW." Mahdi's site is https://mahdikaramiboroojeny.ir");
 	}
 
 
     public function onCommand(CommandSender $player, Command $cmd, String $label, array $args) : bool
     {
-        switch($cmd->getName())
-        {
+        switch ($cmd->getName()) {
             case "easysetskin":
-                $player->sendMessage(C::RED."Developer name: ". C::BLUE."Mahdi");
-                $player->sendMessage(C::RED."Developer github: ". C::BLUE."https://github.com/mahdikarami8484");
-                $player->sendMessage(C::RED."Developer website: ". C::BLUE."https://mahdikaramiboroojeny.ir");
+                $player->sendMessage(C::RED . "Developer name: " . C::BLUE . "Mahdi");
+                $player->sendMessage(C::RED . "Developer github: " . C::BLUE . "https://github.com/mahdikarami8484");
         }
         return true;
     }
