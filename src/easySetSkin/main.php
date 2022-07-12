@@ -1,6 +1,6 @@
 <?php 
 
-namespace easySetSkin;
+namespace mahdikarami8484/easySetSkin;
 
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\plugin\PluginBase;
