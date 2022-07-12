@@ -15,7 +15,6 @@ class main extends PluginBase implements Listener{
     public function onEnable():void 
     {
         $this->getServer()->getPluginManager()->registerEvents($this,$this);
-		//$this->getlogger()->info(C::BLUE."Mahdi's plug is loading ".C::RED."|".C::YELLOW." Mahdi's site is https://mahdikaramiboroojeny.ir");
 	}
 
 
