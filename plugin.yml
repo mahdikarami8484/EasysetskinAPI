@@ -3,7 +3,7 @@ version: 1.0.0
 main: easySetSkin\main
 api: 4.0.0
 description: for easy set skin
-author: Mahdi
+author: mahdikarami8484
 
 
 commands:
