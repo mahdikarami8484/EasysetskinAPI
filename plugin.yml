@@ -1,17 +1,16 @@
-name: easySetSkin
+name: EasysetskinAPI
 version: 1.0.0
-main: easySetSkin\main
+main: mahdikarami8484\EasysetskinAPI\main
 api: 4.0.0
-description: for easy set skin
+description: API for set skin player easy
 author: mahdikarami8484
-
 
 commands:
   easysetskin:
     description: for see about developer
-    permission: easysetskin.command
+    permission: easysetskinapi.command
 
 permissions:
-  easysetskin.command:
-    description: Allow using easysetskin command
-    default: true
+  easysetskinapi.command:
+    description: Allow using easysetskinapi command
+    default: op
