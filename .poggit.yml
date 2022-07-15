@@ -5,4 +5,8 @@ branches:
 projects:
   easysetskin:
     path: ""
+  libEasysetskinAPI:
+    path: ""
+    type: library
+    model: virion
 ...
